@@ -25,7 +25,8 @@ export default function socialMedia(props) {
             rel="noopener noreferrer"
           >
             <IconWrapper {...media} {...props}>
-              <i className={`fab ${media.fontAwesomeIcon}`}></i>
+              {/* removed fab before media forcing other groups of icons like fa-envelope to not work */}
+              <i className={`${media.fontAwesomeIcon}`}></i>
             </IconWrapper>
             {/* <span></span> */}
           </a>

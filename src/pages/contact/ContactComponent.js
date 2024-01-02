@@ -69,10 +69,11 @@ class Contact extends Component {
                 </p>
                 <div className="phonesite-btn-div">
                   <Button
-                    text="Visit My Phonesite"
+                    text=" +1(801) 995-9902"
                     newTab={true}
-                    href={phoneSection.link}
+                    href={phoneSection.phoneCall}
                     theme={theme}
+                    iconClass={"fa fa-phone-alt"}
                   />
                 </div>
               </div>

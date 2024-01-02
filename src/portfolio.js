@@ -23,9 +23,12 @@ const greeting = {
   logo_name: "TyMull",
   // nickname: "tyabetus",
   subTitle:
-    "The human avatar of synergy. A quick learner who is driven to solve problems with sustainable code.",
+    // "The human avatar of synergy. A quick learner who is driven to solve problems with sustainable code.",
+    "A quick learner who is driven to solve problems with sustainable code. Detail oriented, and an excellent communicator " +
+    "who can bridge the gap that often grows between developers and business professionals. However, when asked, can still " +
+    "use fun words like \"RESTful API\" and \"synergy.\"",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "https://drive.google.com/file/d/1CVpaC5uysah60KOIX0YttFDskM8LmskP/view?usp=sharing",
   portfolio_repository: "https://github.com/tydmull",
   githubProfile: "https://github.com/tydmull",
 };
@@ -43,13 +46,13 @@ const socialMediaLinks = [
   {
     name: "Github",
     link: "https://github.com/tydmull",
-    fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
+    fontAwesomeIcon: "fab fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/tymull/",
-    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    fontAwesomeIcon: "fab fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   // {
@@ -61,7 +64,8 @@ const socialMediaLinks = [
   {
     name: "Gmail",
     link: "mailto:tydmull@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    // fontAwesomeIcon: "fab fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    fontAwesomeIcon: "fa fa-envelope", // Reference https://fontawesome.com/icons/envelope?style=solid
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   // {
@@ -867,13 +871,13 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ty_adjusted.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "Feel free to shoot me an email or check out my pages. I will try to respond to messages in a timely manner, but admittedly, the quickest way to reach me is always by phone.",
   },
   phoneSection: {
-    title: "Phones",
+    title: "Phone",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://phones.ashutoshhathidara.com/",
+      "The best way to reach me is by phone. Don't be shy to call or text.",
+    phoneCall: "tel:+1801-995-9902",
     avatar_image_path: "phonesAdjusted.svg",
   },
   addressSection: {
