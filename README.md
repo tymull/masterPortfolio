@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="http://hits.dwyl.com/ashutosh1919/masterPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/ashutosh1919/masterPortfolio.svg" /></a>
-  <a href="https://nodejs.org/en/blog/release/v12.13.0/"><img alt="NodeJS" src="https://img.shields.io/badge/node-12.14.1-important?style=flat-square" /></a>
+  <a href="https://nodejs.org/en/phone/release/v12.13.0/"><img alt="NodeJS" src="https://img.shields.io/badge/node-12.14.1-important?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/npm/v/6.13.4"><img alt="NPM" src="https://img.shields.io/badge/npm-6.13.7-blueviolet?style=flat-square" /></a>
   <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
   <a href="https://join.slack.com/t/masterportfolio/shared_invite/zt-g772n1fo-Ns4usanURF8jVb8wk2lRAA"><img alt="Join Slack Channel For Support" src="https://img.shields.io/badge/slack-masterPortfolio-yellow.svg?logo=slack?style=flat-square" /></a>
@@ -38,7 +38,7 @@
 ✔️ Open Source Projects Connected with Github\
 ✔️ Experience\
 ✔️ Certifications 🏆\
-✔️ Blogs\
+✔️ Phones\
 ✔️ Education\
 ✔️ Contact me
 
@@ -87,7 +87,7 @@ const socialMediaLinks = {
 ...
 ```
 
-You can change the personal information, experience, education, social media, certifications, blog information, contact information etc. in `src/portfolio.js` to directly reflect them in portfolio website.
+You can change the personal information, experience, education, social media, certifications, phone information, contact information etc. in `src/portfolio.js` to directly reflect them in portfolio website.
 
 ### How to change the icons on homepage under what i do section?
 

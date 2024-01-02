@@ -10,7 +10,7 @@ class CertificationCard extends Component {
       <Fade bottom duration={2000} distance="20px">
         <div className="cert-card">
           <div className="content">
-            <a
+            <a style = {{textDecoration: "none", flexGrow: 1}}
               href={certificate.certificate_link}
               target="_blank"
               rel="noopener noreferrer"
@@ -20,15 +20,20 @@ class CertificationCard extends Component {
                 className="cert-header"
                 style={{ backgroundColor: certificate.color_code }}
               >
-                <img
+                <div className="course-title">
+                  <h2 className="content-title" style={{ color: theme.text }}>
+                    {certificate.course_title}
+                  </h2>
+                </div>
+                {/* <img
                   className="logo_img"
                   src={require(`../../assests/images/${certificate.logo_path}`)}
                   alt={certificate.alt_name}
-                />
+                /> */}
               </div>
               <div className="content-details fadeIn-top">
                 <h3 className="content-title" style={{ color: theme.body }}>
-                  Certificate
+                  Course Description
                 </h3>
               </div>
             </a>

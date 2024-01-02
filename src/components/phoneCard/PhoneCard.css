@@ -25,11 +25,11 @@
   position: absolute;
 }
 
-.blog-card-image {
+.phone-card-image {
   width: 440px;
 }
 
-.blog-card-title {
+.phone-card-title {
   margin: auto;
   text-align: left;
   margin-top: 240px;
@@ -40,7 +40,7 @@
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-.blog-card-subtitle {
+.phone-card-subtitle {
   text-align: justify;
   padding-left: 30px;
   padding-right: 30px;
@@ -80,10 +80,10 @@
     clip-path: none;
     position: relative;
   }
-  .blog-card-title {
+  .phone-card-title {
     margin-top: 10px;
   }
-  .blog-card-image {
+  .phone-card-image {
     width: 100%;
   }
 

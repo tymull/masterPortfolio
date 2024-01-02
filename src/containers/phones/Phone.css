@@ -1,4 +1,4 @@
-/*Blog Cards Layout*/
+/*Phone Cards Layout*/
 .square {
   width: 440px;
   height: 430px;
@@ -15,26 +15,26 @@
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
-.blog-header-text {
+.phone-header-text {
   font-size: 56px;
   font-weight: 400;
 }
 
-.blog-subtitle {
+.phone-subtitle {
   text-transform: uppercase;
 }
-.blog-main-div > * {
+.phone-main-div > * {
   flex: 1;
   margin-bottom: 30px;
 }
-.blog-main-div {
+.phone-main-div {
   display: flex;
 }
-.blog-image-div > img {
+.phone-image-div > img {
   max-width: 100%;
   height: auto;
 }
-.blog-text-div {
+.phone-text-div {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -42,16 +42,16 @@
 
 /* Media Query */
 @media (max-width: 1380px) {
-  .blog-header-text {
+  .phone-header-text {
     font-size: 40px;
   }
 }
 @media (max-width: 768px) {
-  .blog-header-text {
+  .phone-header-text {
     font-size: 30px;
     text-align: center;
   }
-  .blog-subtitle {
+  .phone-subtitle {
     font-size: 16px;
     line-height: normal;
     text-align: center;
