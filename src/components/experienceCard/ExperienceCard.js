@@ -47,7 +47,8 @@ class ExperienceCard extends Component {
 
                 </div>
               </div>
-              <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: 20 }}>
+              {/* added padding-bottom */}
+              <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: 20, paddingBottom: 7, }}>
                 <div
                   className="repo-description"
                 />

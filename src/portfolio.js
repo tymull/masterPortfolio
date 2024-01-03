@@ -660,7 +660,8 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "My professional developer experience has been mostly full stack web development. However, I have experience in a " +
+    "variety of other forms of development using many different languages and technologies.",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -668,42 +669,55 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Associate AI Engineer",
-          company: "Legato Health Technology",
-          company_url: "https://legatohealthtech.com/",
-          logo_path: "legato_logo.png",
-          duration: "June 2020 - Aug 2021",
-          location: "Hyderabad, Telangana",
+          title: "Software Developer",
+          company: "BYU Print and Mail",
+          company_url: "https://print-mail.byu.edu/",
+          logo_path: "BYU.svg",
+          duration: "Feb 2023 - Present",
+          location: "Provo, Utah",
           description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+            "I develop and maintain the full stack of various websites and internal applications for BYU Print and Mail " +
+            "as part of a team. " +
+            "I frequently fix bugs and add features to the web based systems using PHP backend, Angular frontend, and SQL databases. " +
+            "Our databases are stored on local servers and I successfully assisted with a server migration by updating dependent file paths in older sites that had poor design " +
+            "structure and identified multiple important files that had been missed in the initial audit. " +
+            "I am currently focusing with two other developers on completing a product site based on an outdated and poorly designed " +
+            "version by rebuilding it from the ground up with excellent design structure with Angular as well as vastly improved " +
+            "and responsive UI/UX. The technologies I most frequently work with here are Angular, Typescript, PHP, SQL, and Git.",
           color: "#0879bf",
         },
         {
-          title: "Android and ML Developer",
-          company: "Muffito Incorporation",
-          company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-          logo_path: "muffito_logo.png",
-          duration: "May 2018 - Oct 2018",
-          location: "Pune, Maharashtra",
+          title: "Freelance Software Developer",
+          company: "Gansett Solar",
+          company_url: "https://www.gansett.solar/",
+          logo_path: "GansettSolarLogo.svg",
+          duration: "Jan 2019 - Jan 2022",
+          location: "Provo, Utah",
           description:
-            "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
+            "I developed automated updates for the company's proposal tool built upon Google Slides and Sheets using Google Apps Script. " +
+            "I created in-app tools for notifying the proposal team and generating client folders from lead submission forms. " +
+            "I built in-app tools to streamline proposal creation and distribution. " +
+            "I intermittently assisted with an overhaul of the company's CRM program in Google Sheets.",
           color: "#9b1578",
         },
         {
-          title: "Android Developer",
-          company: "FreeCopy Pvt. Ltd.",
-          company_url: "https://www.linkedin.com/company/freecopy/about/",
-          logo_path: "freecopy_logo.png",
-          duration: "Nov 2017 - Dec 2017",
-          location: "Ahmedabad, Gujarat",
+          title: "Freelance Computer Science Tutor",
+          company: "",
+          company_url: "",
+          logo_path: "Bowtie.svg",
+          duration: "Jan 2019 - Nov 2019",
+          location: "Salt Lake City, Utah",
           description:
-            "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
+            "I assisted a student with no prior coding experience in learning JavaScript, HTML, and CSS and coached her on web development " +
+            "assignments from her class. " +
+            "My student completed the majority of a rigorous and accelerated programming boot camp until she landed her ideal job as a " +
+            "Technical Writer for Ebay.",
           color: "#fc1f20",
         },
       ],
     },
     {
-      title: "Internships",
+      title: "Extracodericular",
       experiences: [
         {
           title: "Machine Learning Intern",
@@ -809,14 +823,19 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "The projects on my GitHub are mostly a sampling of my school projects. Unfortunately I am not at liberty to share the code for my work projects. " +
+    "Below, I've highlighted some of this coursework as well as information on some of my personal WIP projects.",
   avatar_image_path: "projects_image.svg",
 };
 
+const schoolHeader = {
+  title: "School",
+};
+
 const publicationsHeader = {
-  title: "Publications",
-  description:
-    "I have worked on and published a few research papers and publications of my own.",
+  title: "Personal",
+  // description:
+  //   "I have worked on and published a few research papers and publications of my own.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -909,6 +928,7 @@ export {
   certifications,
   experience,
   projectsHeader,
+  schoolHeader,
   publicationsHeader,
   publications,
   contactPageData,

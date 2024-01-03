@@ -9,6 +9,7 @@ import { Fade } from "react-reveal";
 import {
   greeting,
   projectsHeader,
+  schoolHeader,
   publicationsHeader,
   publications,
 } from "../../portfolio.js";
@@ -49,6 +50,26 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
+
+        <Fade bottom duration={2000} distance="40px">
+              <div className="publications-heading-div">
+                <div className="publications-heading-text-div">
+                  <h1
+                    className="publications-heading-text"
+                    style={{ color: theme.text }}
+                  >
+                    {schoolHeader.title}
+                  </h1>
+                  <p
+                    className="projects-header-detail-text subTitle"
+                    style={{ color: theme.secondaryText }}
+                  >
+                    {schoolHeader["description"]}
+                  </p>
+                </div>
+              </div>
+            </Fade>
+
         <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
