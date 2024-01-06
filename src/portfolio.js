@@ -29,8 +29,8 @@ const greeting = {
     "use fun words like \"RESTful API\" and \"synergy.\"",
   resumeLink:
     "https://drive.google.com/file/d/1CVpaC5uysah60KOIX0YttFDskM8LmskP/view?usp=sharing",
-  portfolio_repository: "https://github.com/tydmull",
-  githubProfile: "https://github.com/tydmull",
+  portfolio_repository: "https://github.com/tymull",
+  githubProfile: "https://github.com/tymull",
 };
 
 const socialMediaLinks = [
@@ -45,7 +45,7 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/tydmull",
+    link: "https://github.com/tymull",
     fontAwesomeIcon: "fab fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
