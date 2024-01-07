@@ -823,63 +823,145 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "The projects on my GitHub are mostly a sampling of my school projects. Unfortunately I am not at liberty to share the code for my work projects. " +
-    "Below, I've highlighted some of this coursework as well as information on some of my personal WIP projects.",
+    "The projects below are split between personal WIP projects and a sampling of projects I've done for my coursework at BYU. Some are linked to Github repositories " +
+    "and others to my Google Drive based on what can be made public. Unfortunately, I am not at liberty to share the code for my work projects.",
   avatar_image_path: "projects_image.svg",
 };
 
-const schoolHeader = {
-  title: "School",
-};
-
-const publicationsHeader = {
+const personalHeader = {
   title: "Personal",
   // description:
   //   "I have worked on and published a few research papers and publications of my own.",
   avatar_image_path: "projects_image.svg",
 };
 
-const publications = {
+const personalProjects = {
+  data: [
+    {
+      id: "018ce232-0517-7f34-8d7c-c528ccee60eb",
+      name: "Hatdraw Machine",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"HTML","iconifyClass":"logos:html-5"},{"name":"CSS","iconifyClass":"logos:css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"React","iconifyClass":"logos:react"},{"name":"NodeJS","iconifyClass":"vscode-icons:file-type-node"},{"name":"C++","iconifyClass":"devicon:cplusplus"}],
+      description: "A website where you can draw names from a hat in either raffle format or gift exchange format. I started it years ago and never got around to finishing it but might someday. I had written the code for the exchange hat to use for a family gift exchange in C++ for fun on an old computer and have included that in the folder Project1, but I have yet to rewrite it for this site. The raffle hat works, but I indend to eventually support saving lists, results, constraints, uploading lists, and more when I get around to it, as well as improve the design a bit. Meanwhile, check out the Raffle Hat!",
+      url:
+        "https://github.com/tymull/hatdraw-react",
+    },
+    {
+      id: "018ce231-c5b6-73f9-9ef5-c97792d58a18",
+      name: "Roman Numerals",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"HTML","iconifyClass":"logos:html-5"},{"name":"JavaScript","iconifyClass":"logos-javascript"}],
+      description: "This was a coding challenge as part of a job application a year ago that they think I did well on and got the job. There was a 3-hour time limit. So it isn't perfect, but I knocked out a decent number of edge cases and could confidently finish it with more time, but I like showing it at the state it was in at 3hrs.",
+      url:
+        "https://github.com/tymull/roman-numerals",
+    },
+    {
+      id: "018ce231-7972-72b5-99ce-83915d418101",
+      name: "Luta",
+      // createdAt: "2020-03-06T16:26:54Z",
+      description: "A startup I am building with a partner to make a platform similar to things Salesforce makes that is tailored to serve as a customer, seller, or operations portal for certain industries my partner has identified that are sorely in need of it. He owns a business in one such industry and knows what people are willing to pay for sub-par solutions to run their business with. The MVP will be rather simple, but we hope to have a suite of tools that would appeal to many businesses. " +
+      "The format will be a web app. We decided to use Bubble.io to develop the site at least initially, since it is a very fluid way to iterate on the design. I can then always rebuild it from scratch after we have done enough user testing to have a good idea of how it should flow.",
+      url:
+        "https://docs.google.com/document/d/1qqqYERjL_LLlLHL8jmyT462I32K8MTqXWhHZQm1556I/edit?usp=drive_link",
+    },
+    {
+      id: "018ce231-2e0e-74b2-81d1-516543753ead",
+      name: "Maze Game",
+      // createdAt: "2020-03-06T16:26:54Z",
+      description: "Very early stage development of a maze game I am working on with a friend. We planned on using Unity, but after the fiasco they had with their terms of service, we are considering switching to Unreal. Part of the idea was inspired by the simple 3-D maze program which is on my github, but obviously we have bigger plans for it and have researched a lot into how we will implement it and some of the algorithms we might use. I also learned some basics in Unity and have experience modeling in Maya and Blender, although we will probably use Blender for this and purchase certain assets. " +
+      "We have been looking into Unreal and Godot as alternatives but have not yet decided for sure. The gist of the game is running through either randomly generated or hand crafted labyrinths in third person while a Minotaur is chasing you down. We have lots of ideas of fun twists and think it would be a mobile game we would love to play even if no one else does.",
+      url:
+        "https://docs.google.com/document/d/1IjH0hE5bxH1Wntunb1KNNKPTDBDtKrD69rJkd9QaoWw/edit?usp=drive_link",
+    },
+  ],
+};
+
+const schoolHeader = {
+  title: "School",
+};
+
+const schoolProjects = {
   data: [
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      name: "Family Map App",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"Java","iconifyClass":"logos:java"},{"name":"Android","iconifyClass":"devicon:android"},{"name":"SQLite","iconifyClass":"vscode-icons:file-type-sqlite"},{"name":"Google Maps","iconifyClass":"logos:google-maps"},{"name":"J-Unit","iconifyClass":"devicon:junit"}],
+      description: "An Android application that was a project for C S 240 which was an interesting app that I built from scratch using Java and Android Studio. It uses a SQL database with fake data to map out family history events using the user's ancestry information.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://github.com/tymull/FamilyMap",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "018ce2fd-be4c-796a-82c3-97560382add0",
+      name: "Student Recreation Resources",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"HTML","iconifyClass":"logos:html-5"},{"name":"CSS","iconifyClass":"logos:css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"React","iconifyClass":"logos:react"},{"name":"NodeJS","iconifyClass":"vscode-icons:file-type-node"}],
+      description: "Healthy recreation resources for BYU students. This was a project for C S 356. The purpose of this project was to practice designing an effective information architecture. To save time, I stubbed out a lot of the content on the different pages, but it still shows the general idea.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://github.com/tymull/recreation-resources",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "018ce2fd-fd76-75d5-8b24-a861b3560468",
+      name: "Traveling Salesperson",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"Python","iconifyClass":"logos:python"}],
+      description: "Explores different algorithms from solving the Traveling Salesperson problem.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://drive.google.com/drive/folders/1BLjRqzonuXZWDhz-Wt3OcUmyxKaVH5a5?usp=drive_link",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "018ce2fe-3204-7cd0-bc83-b817b01abd3e",
+      name: "Convex Hull",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"Python","iconifyClass":"logos:python"}],
+      description: "Project for C S 312 using divide and conquer to create a convex hull out of a set of points in O(nlogn) time. The project description and my report on my implementation are included.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://drive.google.com/drive/folders/16LWCOI7fG8Rg_-VsaGNaA5fu_A7WqdCe?usp=drive_link",
     },
     {
-      id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-      name: "Artificial Intelligence Paper",
-      createdAt: "2020-03-06T16:26:54Z",
-      description: "Paper Written on Artificial Intelligence published in xyz ",
+      id: "018ce2fe-7513-7da9-8079-5627f4ce0824",
+      name: "Gene Sequencing",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"Python","iconifyClass":"logos:python"}],
+      description: "Project for C S 312 where we use dynamic programming to align long character sequences. I included my report on the analysis of my implementation as well as the project description.",
       url:
-        "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
+        "https://drive.google.com/drive/folders/1ZCGOZKO4CGkchHH-RxdtKxeK6767OPlX?usp=drive_link",
+    },
+    {
+      id: "018ce2fe-a6b3-7274-af3c-5dee6aedb213",
+      name: "3-D Maze",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"C++","iconifyClass":"devicon:cplusplus"}],
+      description: "A project from my Data Structures class where we made a C++ shell program that generated randomized, solvable 3D mazes using 3D arrays. I believe the current version of this project is different enough that I decided to make this public because for me it was one of the more interesting projects I did when first learning to code.",
+      url:
+        "https://github.com/tymull/3d-maze",
+    },
+    {
+      id: "018ce2fe-cf26-7191-9191-1de9444ecd71",
+      name: "Evil Hangman",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"Java","iconifyClass":"logos:java"}],
+      description: "A project for C S 240 which is a console program that plays a game of hangman with the user which dynamically picks words based on the user's input. It keeps cheating by changing to whatever is the biggest group while still keeping the same revealed letters, and picks a random one when the user fails.",
+      url:
+        "https://github.com/tymull/FamilyMap",
+    },
+    {
+      id: "018ce2fe-f01a-77b3-89a1-151f0a6bf953",
+      name: "Tweeter",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"Java","iconifyClass":"logos:java"},{"name":"Android","iconifyClass":"devicon:android"},{"name":"Maven","iconifyClass":"devicon:maven"},{"name":"Mockito/J-Unit","iconifyClass":"devicon:junit"}],
+      description: "A C S 340 project where we refactored the frontend of a twitter clone Android App to use better design patterns. Even though this is a small app that perhaps doesn't really need as extensive code architecture, it was an excellent way to practice and apply many of these patterns such as the Observer Pattern, Template Method, Model-View-Presenter, and many other important concepts for creating a maintainable and scaleable codebase.",
+      url:
+        "https://drive.google.com/drive/folders/1ZMbJdCeYRu3ObQsSDYwsqXex1FgTBmOK?usp=drive_link",
+    },
+    {
+      id: "018ce2ff-150a-77e1-996d-7d2a2b0a6464",
+      name: "Messy Coding Collection",
+      // createdAt: "2020-03-06T16:26:54Z",
+      languages: [{"name":"All Sorts of Languages","iconifyClass":"tabler:world-code"}],
+      description: "If you want to deep dive into a lot of things I've coded, this is a major chunk of projects I have done in classes as well as a few side projects, mostly unfinished and not of great note. I haven't thoroughly organized this repository yet.",
+      url:
+        "https://drive.google.com/drive/folders/1Tx2aFR18N-nRcb9ozW9p2_7EPzx3nN5S?usp=drive_link",
     },
   ],
 };
@@ -929,7 +1011,8 @@ export {
   experience,
   projectsHeader,
   schoolHeader,
-  publicationsHeader,
-  publications,
+  schoolProjects,
+  personalHeader,
+  personalProjects,
   contactPageData,
 };
