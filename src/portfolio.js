@@ -658,7 +658,7 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Coding Work, Extracodericular Work, and Volunteering",
   description:
     "My professional developer experience has been mostly full stack web development. However, I have experience in a " +
     "variety of other forms of development using many different languages and technologies.",

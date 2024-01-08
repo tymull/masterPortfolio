@@ -22,8 +22,23 @@ class ExperienceCard extends Component {
         <div className="experience-card-stepper">
           <div style={{ width: 20, height: 20, backgroundColor: `${theme.headerColor}`, borderRadius: 50, zIndex: 100 }} />
           {
-            index !== (totalCards - 1) &&
-            <div style={{ height: 190, width: 2, backgroundColor: `${theme.headerColor}`, position: 'absolute', marginTop: 20 }} />
+            // if first card and not last card
+            index !== (totalCards - 1) && index === 0
+              ? <div className="stepper-line-bottom-half" style={{ backgroundColor: `${theme.headerColor}`}}/>
+              //if not first or last card
+              : index !== (totalCards - 1) && index !== 0
+                ? (
+                  <>
+                    <div className="stepper-line-top-half" style={{ backgroundColor: `${theme.headerColor}`}}/>
+                    <div className="stepper-line-bottom-half" style={{ backgroundColor: `${theme.headerColor}`}}/>
+                  </>
+                )
+                // <div className="stepper-line-full"/>
+                //if last card and not first card
+                : index === (totalCards - 1) && index !== 0
+                  ? <div className="stepper-line-top-half" style={{ backgroundColor: `${theme.headerColor}`}}/>
+                  //if only card
+                  : null
           }
         </div>
         <Fade right duration={2000} distance="40px">
