@@ -28,12 +28,24 @@
   justify-content: center;
   margin-top: 20px;
 }
+.fact-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding: 10px 14px;
+  font-size: 16px;
+}
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {
     font-size: 15px;
     padding: 12px 18px;
     margin-right: 0px;
+  }
+
+  .fact-button {
+    padding: 10px 14px;
+    font-size: 13px;
   }
 }
 @media (max-width: 320px) {

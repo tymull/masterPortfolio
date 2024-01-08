@@ -796,7 +796,7 @@ const projectsHeader = {
   title: "Projects",
   description:
     "The projects below are split between personal WIP projects and a sampling of projects I've done for my coursework at BYU. Some are linked to Github repositories " +
-    "and others to my Google Drive based on what can be made public. Unfortunately, I am not at liberty to share the code for my work projects.",
+    "and others to my Google Drive based on what can be made public. However, I am not at liberty to share the code for my work projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -877,7 +877,8 @@ const schoolProjects = {
       name: "Traveling Salesperson",
       // createdAt: "2020-03-06T16:26:54Z",
       languages: [{"name":"Python","iconifyClass":"logos:python"}],
-      description: "Explores different algorithms from solving the Traveling Salesperson problem.",
+      description: "This was a very interesting class project from C S 312 which explores different algorithms for solving the Traveling Salesperson optimization problem. Included is my report of the analysis of my implementation of Branch and Bound as well as documentation of the project description " +
+      "for the individual and group projects. I also included the group report and presentation, however I pair-programmed the Ant Colony algorithm on one of my teammate's computers and never obtained a copy of the code. It was very proud of it, but I at least have the description I wrote of our implementation of the algorithm in the group project report. This algorithm would have gone in the \"fancy\" implementation of the code, which in my case is still blank even though we implemented it on my partner's project.",
       url:
         "https://drive.google.com/drive/folders/1BLjRqzonuXZWDhz-Wt3OcUmyxKaVH5a5?usp=drive_link",
     },

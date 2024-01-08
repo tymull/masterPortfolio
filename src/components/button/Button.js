@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./Button.css";
 
-export default function Button({ text, className, href, newTab, theme, iconClass }) {
+export default function Button({ text, className, href, newTab, theme, iconClass, onClick }) {
   // added state so that the icon coloring wouldn't get messed up when hovering over the button
   const [isHovered, setIsHovered] = useState(false);
 
@@ -13,19 +13,38 @@ export default function Button({ text, className, href, newTab, theme, iconClass
     ? { color: theme.text, backgroundColor: theme.body }
     : { color: theme.body, backgroundColor: theme.text };
 
+  const handleClick = (event) => {
+    if (!href) {
+      event.preventDefault(); // Prevent default if it's not a link
+    }
+    if (onClick) {
+      onClick(event); // Call the onClick handler if provided
+    }
+  };
+
   return (
-    <div className={className}>
-      <a
-        className="main-button"
-        href={href}
-        target={newTab ? "_blank" : "_self"}
-        style={{ ...buttonStyle, border: `solid 1px ${theme.text}` }}
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        {iconClass && <i className={iconClass}></i>}
-        {text}
-      </a>
+    <div className={className} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      {href ? (
+        <a
+          className="main-button"
+          href={href}
+          target={newTab ? "_blank" : "_self"}
+          style={{ ...buttonStyle, border: `solid 1px ${theme.text}` }}
+          onClick={handleClick}
+        >
+          {iconClass && <i className={iconClass}></i>}
+          {text}
+        </a>
+      ) : (
+        <button
+          className="main-button fact-button"
+          style={{ ...buttonStyle, border: `solid 1px ${theme.text}` }}
+          onClick={handleClick}
+        >
+          {iconClass && <i className={iconClass}></i>}
+          {text}
+        </button>
+      )}
     </div>
   );
 }
