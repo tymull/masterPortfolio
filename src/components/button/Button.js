@@ -23,7 +23,7 @@ export default function Button({ text, className, href, newTab, theme, iconClass
   };
 
   return (
-    <div className={className} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <div className={className}>
       {href ? (
         <a
           className="main-button"
@@ -31,6 +31,8 @@ export default function Button({ text, className, href, newTab, theme, iconClass
           target={newTab ? "_blank" : "_self"}
           style={{ ...buttonStyle, border: `solid 1px ${theme.text}` }}
           onClick={handleClick}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         >
           {iconClass && <i className={iconClass}></i>}
           {text}
@@ -40,6 +42,8 @@ export default function Button({ text, className, href, newTab, theme, iconClass
           className="main-button fact-button"
           style={{ ...buttonStyle, border: `solid 1px ${theme.text}` }}
           onClick={handleClick}
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         >
           {iconClass && <i className={iconClass}></i>}
           {text}
