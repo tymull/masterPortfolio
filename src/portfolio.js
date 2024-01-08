@@ -679,7 +679,7 @@ const experience = {
             "I develop and maintain the full stack of various websites and internal applications for BYU Print and Mail " +
             "as part of a team. " +
             "I frequently fix bugs and add features to the web based systems using PHP backend, Angular frontend, and SQL databases. " +
-            "Our databases are stored on local servers and I successfully assisted with a server migration by updating dependent file paths in older sites that had poor design " +
+            "Our databases are stored on local servers, but we have started migrating some to cloud, and I successfully assisted with a server migration by updating dependent file paths in older sites that had poor design " +
             "structure and identified multiple important files that had been missed in the initial audit. " +
             "I am currently focusing with two other developers on completing a product site based on an outdated and poorly designed " +
             "version by rebuilding it from the ground up with excellent design structure with Angular as well as vastly improved " +
