@@ -26,7 +26,7 @@ const greeting = {
     // "The human avatar of synergy. A quick learner who is driven to solve problems with sustainable code.",
     "A quick learner who is driven to solve problems with sustainable code. Detail oriented, and an excellent communicator " +
     "who can bridge the gap that often grows between developers and business professionals. However, when asked, can still " +
-    "use fun words like \"RESTful API\" and \"synergy.\"",
+    'use fun words like "RESTful API" and "synergy."',
   resumeLink:
     "https://drive.google.com/file/d/1CVpaC5uysah60KOIX0YttFDskM8LmskP/view?usp=sharing",
   portfolio_repository: "https://github.com/tymull",
@@ -444,6 +444,7 @@ const degrees = {
         "⚡ I have studied a variety of software engineering subjects including Algorithms, Architecture, Low Level Programming, Design, Cloud Platforms, and more",
         "⚡ Projected Graduation of Spring 2025",
         "⚡ Member of Phi-Eta-Sigma Honor Society and the Dean's List Freshman Year.",
+        "⚡ Participated in the BYU ACM Coding Competition and Google Games.",
       ],
       website_link: "https://www.byu.edu/",
     },
@@ -457,8 +458,7 @@ const certifications = {
       subtitle: "- Enrolled",
       course_title: "Computer Security",
       // logo_path: "stanford_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/10321-000",
+      certificate_link: "https://catalog.byu.edu/courses/10321-000",
       alt_name: "Computer Security",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -477,8 +477,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Designing the User Experience",
       // logo_path: "google_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/12328-001",
+      certificate_link: "https://catalog.byu.edu/courses/12328-001",
       alt_name: "Designing the User Experience",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -487,8 +486,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Software Design",
       // logo_path: "microsoft_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/11440-001",
+      certificate_link: "https://catalog.byu.edu/courses/11440-001",
       alt_name: "Software Design",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -497,8 +495,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Algorithm Design & Analysis",
       // logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/01499-002",
+      certificate_link: "https://catalog.byu.edu/courses/01499-002",
       alt_name: "Algorithm Design & Analysis",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -507,8 +504,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Web Programming",
       // logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://github.com/BYU-CS-260",
+      certificate_link: "https://github.com/BYU-CS-260",
       alt_name: "Web Programming",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -517,8 +513,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Intro to Computational Theory",
       // logo_path: "google_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/06974-004",
+      certificate_link: "https://catalog.byu.edu/courses/06974-004",
       alt_name: "Intro to Computational Theory",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -527,8 +522,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Adv Programming Concepts",
       // logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/09200-000",
+      certificate_link: "https://catalog.byu.edu/courses/09200-000",
       alt_name: "Adv Programming Concepts",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -537,8 +531,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Discrete Structures",
       // logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/10649-000",
+      certificate_link: "https://catalog.byu.edu/courses/10649-000",
       alt_name: "Discrete Structures",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -547,8 +540,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Data Structures",
       // logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/10648-000",
+      certificate_link: "https://catalog.byu.edu/courses/10648-000",
       alt_name: "Data Structures",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -557,8 +549,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Computer Systems",
       // logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://catalog23byu.coursedog.com/courses/10178-002",
+      certificate_link: "https://catalog23byu.coursedog.com/courses/10178-002",
       alt_name: "Computer Systems",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -567,8 +558,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Intro to Computer Programming",
       // logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/01489-002",
+      certificate_link: "https://catalog.byu.edu/courses/01489-002",
       alt_name: "Intro to Computer Programming",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -577,8 +567,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Intro to 3D Graphics",
       // logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://animation.byu.edu/csanm150",
+      certificate_link: "https://animation.byu.edu/csanm150",
       alt_name: "Discrete Structures",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -587,8 +576,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Principles of Statistics",
       // logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/05604-032",
+      certificate_link: "https://catalog.byu.edu/courses/05604-032",
       alt_name: "Principles of Statistics",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -607,8 +595,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Elementary Linear Algebra",
       // logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/13764-000",
+      certificate_link: "https://catalog.byu.edu/courses/13764-000",
       alt_name: "Elementary Linear Algebra",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -617,8 +604,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Calculus 2",
       // logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/03616-004",
+      certificate_link: "https://catalog.byu.edu/courses/03616-004",
       alt_name: "Calculus 2",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -627,8 +613,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Calculus 1",
       // logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/03615-008",
+      certificate_link: "https://catalog.byu.edu/courses/03615-008",
       alt_name: "Calculus 1",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -637,8 +622,7 @@ const certifications = {
       subtitle: "- Completed",
       course_title: "Intro to Newtonian Mechanics",
       // logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/04540-015",
+      certificate_link: "https://catalog.byu.edu/courses/04540-015",
       alt_name: "Intro to Newtonian Mechanics",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -647,8 +631,7 @@ const certifications = {
       subtitle: "- Enrolled",
       course_title: "Technical Communication",
       // logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://catalog.byu.edu/courses/01857-008",
+      certificate_link: "https://catalog.byu.edu/courses/01857-008",
       alt_name: "Technical Communication",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
@@ -746,8 +729,7 @@ const experience = {
         {
           title: "Customer Service Representative",
           company: "1800 Contacts",
-          company_url:
-            "https://www.1800contacts.com/",
+          company_url: "https://www.1800contacts.com/",
           logo_path: "1800contacts.svg",
           duration: "Apr 2015 - Aug 2015",
           location: "Draper, Utah",
@@ -813,26 +795,37 @@ const personalProjects = {
       id: "018ce232-0517-7f34-8d7c-c528ccee60eb",
       name: "Hatdraw Machine",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"HTML","iconifyClass":"logos:html-5"},{"name":"CSS","iconifyClass":"logos:css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"React","iconifyClass":"logos:react"},{"name":"NodeJS","iconifyClass":"vscode-icons:file-type-node"},{"name":"C++","iconifyClass":"devicon:cplusplus"}],
-      description: "A website where you can draw names from a hat in either raffle format or gift exchange format. I started it years ago and never got around to finishing it but might someday. I had written the code for the exchange hat to use for a family gift exchange in C++ for fun on an old computer and have included that in the folder Project1, but I have yet to rewrite it for this site. The raffle hat works, but I indend to eventually support saving lists, results, constraints, uploading lists, and more when I get around to it, as well as improve the design a bit. Meanwhile, check out the Raffle Hat!",
-      url:
-        "https://github.com/tymull/hatdraw-react",
+      languages: [
+        { name: "HTML", iconifyClass: "logos:html-5" },
+        { name: "CSS", iconifyClass: "logos:css-3" },
+        { name: "JavaScript", iconifyClass: "logos-javascript" },
+        { name: "React", iconifyClass: "logos:react" },
+        { name: "NodeJS", iconifyClass: "vscode-icons:file-type-node" },
+        { name: "C++", iconifyClass: "devicon:cplusplus" },
+      ],
+      description:
+        "A website where you can draw names from a hat in either raffle format or gift exchange format. I started it years ago and never got around to finishing it but might someday. I had written the code for the exchange hat to use for a family gift exchange in C++ for fun on an old computer and have included that in the folder Project1, but I have yet to rewrite it for this site. The raffle hat works, but I indend to eventually support saving lists, results, constraints, uploading lists, and more when I get around to it, as well as improve the design a bit. Meanwhile, check out the Raffle Hat!",
+      url: "https://github.com/tymull/hatdraw-react",
     },
     {
       id: "018ce231-c5b6-73f9-9ef5-c97792d58a18",
       name: "Roman Numerals",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"HTML","iconifyClass":"logos:html-5"},{"name":"JavaScript","iconifyClass":"logos-javascript"}],
-      description: "This was a coding challenge as part of a job application a year ago that they think I did well on and got the job. There was a 3-hour time limit. So it isn't perfect, but I knocked out a decent number of edge cases and could confidently finish it with more time, but I like showing it at the state it was in at 3hrs.",
-      url:
-        "https://github.com/tymull/roman-numerals",
+      languages: [
+        { name: "HTML", iconifyClass: "logos:html-5" },
+        { name: "JavaScript", iconifyClass: "logos-javascript" },
+      ],
+      description:
+        "This was a coding challenge as part of a job application a year ago that they think I did well on and got the job. There was a 3-hour time limit. So it isn't perfect, but I knocked out a decent number of edge cases and could confidently finish it with more time, but I like showing it at the state it was in at 3hrs.",
+      url: "https://github.com/tymull/roman-numerals",
     },
     {
       id: "018ce231-7972-72b5-99ce-83915d418101",
       name: "Luta",
       // createdAt: "2020-03-06T16:26:54Z",
-      description: "A startup I am building with a partner to make a platform similar to things Salesforce makes that is tailored to serve as a customer, seller, or operations portal for certain industries my partner has identified that are sorely in need of it. He owns a business in one such industry and knows what people are willing to pay for sub-par solutions to run their business with. The MVP will be rather simple, but we hope to have a suite of tools that would appeal to many businesses. " +
-      "The format will be a web app. We decided to use Bubble.io to develop the site at least initially, since it is a very fluid way to iterate on the design. I can then always rebuild it from scratch after we have done enough user testing to have a good idea of how it should flow.",
+      description:
+        "A startup I am building with a partner to make a platform similar to things Salesforce makes that is tailored to serve as a customer, seller, or operations portal for certain industries my partner has identified that are sorely in need of it. He owns a business in one such industry and knows what people are willing to pay for sub-par solutions to run their business with. The MVP will be rather simple, but we hope to have a suite of tools that would appeal to many businesses. " +
+        "The format will be a web app. We decided to use Bubble.io to develop the site at least initially, since it is a very fluid way to iterate on the design. I can then always rebuild it from scratch after we have done enough user testing to have a good idea of how it should flow.",
       url:
         "https://docs.google.com/document/d/1qqqYERjL_LLlLHL8jmyT462I32K8MTqXWhHZQm1556I/edit?usp=drive_link",
     },
@@ -840,8 +833,9 @@ const personalProjects = {
       id: "018ce231-2e0e-74b2-81d1-516543753ead",
       name: "Maze Game",
       // createdAt: "2020-03-06T16:26:54Z",
-      description: "Very early stage development of a maze game I am working on with a friend. We planned on using Unity, but after the fiasco they had with their terms of service, we are considering switching to Unreal. Part of the idea was inspired by the simple 3-D maze program which is on my github, but obviously we have bigger plans for it and have researched a lot into how we will implement it and some of the algorithms we might use. I also learned some basics in Unity and have experience modeling in Maya and Blender, although we will probably use Blender for this and purchase certain assets. " +
-      "We have been looking into Unreal and Godot as alternatives but have not yet decided for sure. The gist of the game is running through either randomly generated or hand crafted labyrinths in third person while a Minotaur is chasing you down. We have lots of ideas of fun twists and think it would be a mobile game we would love to play even if no one else does.",
+      description:
+        "Very early stage development of a maze game I am working on with a friend. We planned on using Unity, but after the fiasco they had with their terms of service, we are considering switching to Unreal. Part of the idea was inspired by the simple 3-D maze program which is on my github, but obviously we have bigger plans for it and have researched a lot into how we will implement it and some of the algorithms we might use. I also learned some basics in Unity and have experience modeling in Maya and Blender, although we will probably use Blender for this and purchase certain assets. " +
+        "We have been looking into Unreal and Godot as alternatives but have not yet decided for sure. The gist of the game is running through either randomly generated or hand crafted labyrinths in third person while a Minotaur is chasing you down. We have lots of ideas of fun twists and think it would be a mobile game we would love to play even if no one else does.",
       url:
         "https://docs.google.com/document/d/1IjH0hE5bxH1Wntunb1KNNKPTDBDtKrD69rJkd9QaoWw/edit?usp=drive_link",
     },
@@ -858,27 +852,40 @@ const schoolProjects = {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       name: "Family Map App",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"Java","iconifyClass":"logos:java"},{"name":"Android","iconifyClass":"devicon:android"},{"name":"SQLite","iconifyClass":"vscode-icons:file-type-sqlite"},{"name":"Google Maps","iconifyClass":"logos:google-maps"},{"name":"J-Unit","iconifyClass":"devicon:junit"}],
-      description: "An Android application that was a project for C S 240 which was an interesting app that I built from scratch using Java and Android Studio. It uses a SQL database with fake data to map out family history events using the user's ancestry information.",
-      url:
-        "https://github.com/tymull/FamilyMap",
+      languages: [
+        { name: "Java", iconifyClass: "logos:java" },
+        { name: "Android", iconifyClass: "devicon:android" },
+        { name: "SQLite", iconifyClass: "vscode-icons:file-type-sqlite" },
+        { name: "Google Maps", iconifyClass: "logos:google-maps" },
+        { name: "J-Unit", iconifyClass: "devicon:junit" },
+      ],
+      description:
+        "An Android application that was a project for C S 240 which was an interesting app that I built from scratch using Java and Android Studio. It uses a SQL database with fake data to map out family history events using the user's ancestry information.",
+      url: "https://github.com/tymull/FamilyMap",
     },
     {
       id: "018ce2fd-be4c-796a-82c3-97560382add0",
       name: "Student Recreation Resources",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"HTML","iconifyClass":"logos:html-5"},{"name":"CSS","iconifyClass":"logos:css-3"},{"name":"JavaScript","iconifyClass":"logos-javascript"},{"name":"React","iconifyClass":"logos:react"},{"name":"NodeJS","iconifyClass":"vscode-icons:file-type-node"}],
-      description: "Healthy recreation resources for BYU students. This was a project for C S 356. The purpose of this project was to practice designing an effective information architecture. To save time, I stubbed out a lot of the content on the different pages, but it still shows the general idea.",
-      url:
-        "https://github.com/tymull/recreation-resources",
+      languages: [
+        { name: "HTML", iconifyClass: "logos:html-5" },
+        { name: "CSS", iconifyClass: "logos:css-3" },
+        { name: "JavaScript", iconifyClass: "logos-javascript" },
+        { name: "React", iconifyClass: "logos:react" },
+        { name: "NodeJS", iconifyClass: "vscode-icons:file-type-node" },
+      ],
+      description:
+        "Healthy recreation resources for BYU students. This was a project for C S 356. The purpose of this project was to practice designing an effective information architecture. To save time, I stubbed out a lot of the content on the different pages, but it still shows the general idea.",
+      url: "https://github.com/tymull/recreation-resources",
     },
     {
       id: "018ce2fd-fd76-75d5-8b24-a861b3560468",
       name: "Traveling Salesperson",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"Python","iconifyClass":"logos:python"}],
-      description: "This was a very interesting class project from C S 312 which explores different algorithms for solving the Traveling Salesperson optimization problem. Included is my report of the analysis of my implementation of Branch and Bound as well as documentation of the project description " +
-      "for the individual and group projects. I also included the group report and presentation, however I pair-programmed the Ant Colony algorithm on one of my teammate's computers and never obtained a copy of the code. It was very proud of it, but I at least have the description I wrote of our implementation of the algorithm in the group project report. This algorithm would have gone in the \"fancy\" implementation of the code, which in my case is still blank even though we implemented it on my partner's project.",
+      languages: [{ name: "Python", iconifyClass: "logos:python" }],
+      description:
+        "This was a very interesting class project from C S 312 which explores different algorithms for solving the Traveling Salesperson optimization problem. Included is my report of the analysis of my implementation of Branch and Bound as well as documentation of the project description " +
+        "for the individual and group projects. I also included the group report and presentation, however I pair-programmed the Ant Colony algorithm on one of my teammate's computers and never obtained a copy of the code. It was very proud of it, but I at least have the description I wrote of our implementation of the algorithm in the group project report. This algorithm would have gone in the \"fancy\" implementation of the code, which in my case is still blank even though we implemented it on my partner's project.",
       url:
         "https://drive.google.com/drive/folders/1BLjRqzonuXZWDhz-Wt3OcUmyxKaVH5a5?usp=drive_link",
     },
@@ -886,8 +893,9 @@ const schoolProjects = {
       id: "018ce2fe-3204-7cd0-bc83-b817b01abd3e",
       name: "Convex Hull",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"Python","iconifyClass":"logos:python"}],
-      description: "Project for C S 312 using divide and conquer to create a convex hull out of a set of points in O(nlogn) time. The project description and my report on my implementation are included.",
+      languages: [{ name: "Python", iconifyClass: "logos:python" }],
+      description:
+        "Project for C S 312 using divide and conquer to create a convex hull out of a set of points in O(nlogn) time. The project description and my report on my implementation are included.",
       url:
         "https://drive.google.com/drive/folders/16LWCOI7fG8Rg_-VsaGNaA5fu_A7WqdCe?usp=drive_link",
     },
@@ -895,8 +903,9 @@ const schoolProjects = {
       id: "018ce2fe-7513-7da9-8079-5627f4ce0824",
       name: "Gene Sequencing",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"Python","iconifyClass":"logos:python"}],
-      description: "Project for C S 312 where we use dynamic programming to align long character sequences. I included my report on the analysis of my implementation as well as the project description.",
+      languages: [{ name: "Python", iconifyClass: "logos:python" }],
+      description:
+        "Project for C S 312 where we use dynamic programming to align long character sequences. I included my report on the analysis of my implementation as well as the project description.",
       url:
         "https://drive.google.com/drive/folders/1ZCGOZKO4CGkchHH-RxdtKxeK6767OPlX?usp=drive_link",
     },
@@ -904,26 +913,32 @@ const schoolProjects = {
       id: "018ce2fe-a6b3-7274-af3c-5dee6aedb213",
       name: "3-D Maze",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"C++","iconifyClass":"devicon:cplusplus"}],
-      description: "A project from my Data Structures class where we made a C++ shell program that generated randomized, solvable 3D mazes using 3D arrays. I believe the current version of this project is different enough that I decided to make this public because for me it was one of the more interesting projects I did when first learning to code.",
-      url:
-        "https://github.com/tymull/3d-maze",
+      languages: [{ name: "C++", iconifyClass: "devicon:cplusplus" }],
+      description:
+        "A project from my Data Structures class where we made a C++ shell program that generated randomized, solvable 3D mazes using 3D arrays. I believe the current version of this project is different enough that I decided to make this public because for me it was one of the more interesting projects I did when first learning to code.",
+      url: "https://github.com/tymull/3d-maze",
     },
     {
       id: "018ce2fe-cf26-7191-9191-1de9444ecd71",
       name: "Evil Hangman",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"Java","iconifyClass":"logos:java"}],
-      description: "A project for C S 240 which is a console program that plays a game of hangman with the user which dynamically picks words based on the user's input. It keeps cheating by changing to whatever is the biggest group while still keeping the same revealed letters, and picks a random one when the user fails.",
-      url:
-        "https://github.com/tymull/FamilyMap",
+      languages: [{ name: "Java", iconifyClass: "logos:java" }],
+      description:
+        "A project for C S 240 which is a console program that plays a game of hangman with the user which dynamically picks words based on the user's input. It keeps cheating by changing to whatever is the biggest group while still keeping the same revealed letters, and picks a random one when the user fails.",
+      url: "https://github.com/tymull/FamilyMap",
     },
     {
       id: "018ce2fe-f01a-77b3-89a1-151f0a6bf953",
       name: "Tweeter",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"Java","iconifyClass":"logos:java"},{"name":"Android","iconifyClass":"devicon:android"},{"name":"Maven","iconifyClass":"devicon:maven"},{"name":"Mockito/J-Unit","iconifyClass":"devicon:junit"}],
-      description: "A C S 340 project where we refactored the frontend of a twitter clone Android App to use better design patterns. Even though this is a small app that perhaps doesn't really need as extensive code architecture, it was an excellent way to practice and apply many of these patterns such as the Observer Pattern, Template Method, Model-View-Presenter, and many other important concepts for creating a maintainable and scaleable codebase.",
+      languages: [
+        { name: "Java", iconifyClass: "logos:java" },
+        { name: "Android", iconifyClass: "devicon:android" },
+        { name: "Maven", iconifyClass: "devicon:maven" },
+        { name: "Mockito/J-Unit", iconifyClass: "devicon:junit" },
+      ],
+      description:
+        "A C S 340 project where we refactored the frontend of a twitter clone Android App to use better design patterns. Even though this is a small app that perhaps doesn't really need as extensive code architecture, it was an excellent way to practice and apply many of these patterns such as the Observer Pattern, Template Method, Model-View-Presenter, and many other important concepts for creating a maintainable and scaleable codebase.",
       url:
         "https://drive.google.com/drive/folders/1ZMbJdCeYRu3ObQsSDYwsqXex1FgTBmOK?usp=drive_link",
     },
@@ -931,8 +946,11 @@ const schoolProjects = {
       id: "018ce2ff-150a-77e1-996d-7d2a2b0a6464",
       name: "Messy Coding Collection",
       // createdAt: "2020-03-06T16:26:54Z",
-      languages: [{"name":"All Sorts of Languages","iconifyClass":"tabler:world-code"}],
-      description: "If you want to deep dive into a lot of things I've coded, this is a major chunk of projects I have done in classes as well as a few side projects, mostly unfinished and not of great note. I haven't thoroughly organized this repository yet.",
+      languages: [
+        { name: "All Sorts of Languages", iconifyClass: "tabler:world-code" },
+      ],
+      description:
+        "If you want to deep dive into a lot of things I've coded, this is a major chunk of projects I have done in classes as well as a few side projects, mostly unfinished and not of great note. I haven't thoroughly organized this repository yet.",
       url:
         "https://drive.google.com/drive/folders/1Tx2aFR18N-nRcb9ozW9p2_7EPzx3nN5S?usp=drive_link",
     },
@@ -956,15 +974,15 @@ const contactPageData = {
   },
   addressSection: {
     title: "Address",
-    subtitle:
-      "10262 N Ironwood Dr, Cedar Hills, UT 84062 USA",
+    subtitle: "10262 N Ironwood Dr, Cedar Hills, UT 84062 USA",
     locality: "Cedar Hills",
     country: "USA",
     region: "Utah",
     postalCode: "84062",
     streetAddress: "10262 N Ironwood Dr",
     avatar_image_path: "address_image.svg",
-    location_map_link: "https://www.google.com/maps/place/10262+Ironwood+Dr,+Cedar+Hills,+UT+84062/@40.4185728,-111.7583817,17z/data=!3m1!4b1!4m6!3m5!1s0x874d872c2b93aa41:0x4b661b5d8bc938e9!8m2!3d40.4185687!4d-111.7558068!16s%2Fg%2F11c0_8_f3q?entry=ttu",
+    location_map_link:
+      "https://www.google.com/maps/place/10262+Ironwood+Dr,+Cedar+Hills,+UT+84062/@40.4185728,-111.7583817,17z/data=!3m1!4b1!4m6!3m5!1s0x874d872c2b93aa41:0x4b661b5d8bc938e9!8m2!3d40.4185687!4d-111.7558068!16s%2Fg%2F11c0_8_f3q?entry=ttu",
   },
   blogSection: {
     title: "",
