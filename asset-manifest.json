@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.731bc714.css",
-    "main.js": "/static/js/main.21af1760.js",
+    "main.js": "/static/js/main.c65bbcdb.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.ef8df4d30bb9e8c1aa60.svg",
     "static/media/phones.svg": "/static/media/phones.0ee9ac1ea23856a72479.svg",
@@ -81,10 +81,10 @@
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.731bc714.css.map": "/static/css/main.731bc714.css.map",
-    "main.21af1760.js.map": "/static/js/main.21af1760.js.map"
+    "main.c65bbcdb.js.map": "/static/js/main.c65bbcdb.js.map"
   },
   "entrypoints": [
     "static/css/main.731bc714.css",
-    "static/js/main.21af1760.js"
+    "static/js/main.c65bbcdb.js"
   ]
 }
