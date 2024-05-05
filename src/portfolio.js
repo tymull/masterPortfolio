@@ -28,7 +28,7 @@ const greeting = {
     "who can bridge the gap that often grows between developers and business professionals. However, when asked, can still " +
     'use fun words like "RESTful API" and "synergy."',
   resumeLink:
-    "https://drive.google.com/file/d/1CVpaC5uysah60KOIX0YttFDskM8LmskP/view?usp=sharing",
+    "https://drive.google.com/file/d/1LwQNcIc7GXp_ccfBEhQooUirqrUdYNyq/view?usp=drive_link",
   portfolio_repository: "https://github.com/tymull",
   githubProfile: "https://github.com/tymull",
 };
@@ -389,6 +389,14 @@ const competitiveSites = {
       },
       profileLink: "https://leetcode.com/tyabetus/",
     },
+    {
+      siteName: "picoCTF",
+      iconifyClassname: "tabler:circle-letter-p-filled",
+      style: {
+        color: "#c41230",
+      },
+      profileLink: "https://play.picoctf.org/users/Tyabetus",
+    },
     // {
     //   siteName: "HackerRank",
     //   iconifyClassname: "simple-icons:hackerrank",
@@ -455,21 +463,11 @@ const certifications = {
   certifications: [
     {
       title: "C S 465",
-      subtitle: "- Enrolled",
+      subtitle: "- Completed",
       course_title: "Computer Security",
       // logo_path: "stanford_logo.png",
       certificate_link: "https://catalog.byu.edu/courses/10321-000",
       alt_name: "Computer Security",
-      color_code: "rgba(14, 107, 168, 0.467)",
-    },
-    {
-      title: "C S 201R",
-      subtitle: "- Enrolled",
-      course_title: "Introduction to Machine Learning",
-      // logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://cs.byu.edu/news/new-intro-machine-learning-course/",
-      alt_name: "Introduction to Machine Learning",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
     {
@@ -497,6 +495,16 @@ const certifications = {
       // logo_path: "ibm_logo.png",
       certificate_link: "https://catalog.byu.edu/courses/01499-002",
       alt_name: "Algorithm Design & Analysis",
+      color_code: "rgba(14, 107, 168, 0.467)",
+    },
+    {
+      title: "C S 270",
+      subtitle: "- Completed",
+      course_title: "Introduction to Machine Learning",
+      // logo_path: "deeplearning_ai_logo.png",
+      certificate_link:
+        "https://cs.byu.edu/news/new-intro-machine-learning-course/",
+      alt_name: "Introduction to Machine Learning",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
     {
@@ -627,12 +635,12 @@ const certifications = {
       color_code: "rgba(14, 107, 168, 0.467)",
     },
     {
-      title: "WRTG 316",
+      title: "M COM 320",
       subtitle: "- Enrolled",
-      course_title: "Technical Communication",
+      course_title: "Management Communication",
       // logo_path: "deeplearning_ai_logo.png",
-      certificate_link: "https://catalog.byu.edu/courses/01857-008",
-      alt_name: "Technical Communication",
+      certificate_link: "https://catalog.byu.edu/courses/00747-027",
+      alt_name: "Management Communication",
       color_code: "rgba(14, 107, 168, 0.467)",
     },
   ],
@@ -656,7 +664,7 @@ const experience = {
           company: "BYU Print and Mail",
           company_url: "https://print-mail.byu.edu/",
           logo_path: "BYU.svg",
-          duration: "Feb 2023 - Present",
+          duration: "Feb 2023 - May 2024",
           location: "Provo, Utah",
           description:
             "I develop and maintain the full stack of various websites and internal applications for BYU Print and Mail " +
