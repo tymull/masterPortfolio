@@ -28,7 +28,7 @@ const greeting = {
     "who can bridge the gap that often grows between developers and business professionals. However, when asked, can still " +
     'use fun words like "RESTful API" and "synergy."',
   resumeLink:
-    "https://drive.google.com/file/d/1LwQNcIc7GXp_ccfBEhQooUirqrUdYNyq/view?usp=drive_link",
+    "https://drive.google.com/file/d/1QU7nOEgLiglv-dt44TvR7Gbcjr--RYpr/view?usp=sharing",
   portfolio_repository: "https://github.com/tymull",
   githubProfile: "https://github.com/tymull",
 };
@@ -667,14 +667,14 @@ const experience = {
           duration: "Feb 2023 - May 2024",
           location: "Provo, Utah",
           description:
-            "I develop and maintain the full stack of various websites and internal applications for BYU Print and Mail " +
+            "I developed and maintained the full stack of various websites and internal applications for BYU Print and Mail " +
             "as part of a team. " +
-            "I frequently fix bugs and add features to the web based systems using PHP backend, Angular frontend, and SQL databases. " +
-            "Our databases are stored on local servers, but we have started migrating some to cloud, and I successfully assisted with a server migration by updating dependent file paths in older sites that had poor design " +
+            "I frequently fixed bugs and added features to the web based systems using PHP backend, Angular frontend, and SQL databases. " +
+            "Our databases were stored on local servers, but we had started migrating some to cloud, and I successfully assisted with a server migration by updating dependent file paths in older sites that had poor design " +
             "structure and identified multiple important files that had been missed in the initial audit. " +
-            "I am currently focusing with two other developers on completing a product site based on an outdated and poorly designed " +
-            "version by rebuilding it from the ground up with excellent design structure with Angular as well as vastly improved " +
-            "and responsive UI/UX. The technologies I most frequently work with here are Angular, Typescript, PHP, SQL, and Git.",
+            "I worked with two other developers and rebuilt an outdated and poorly designed product site from the ground up and " +
+            "implemented excellent software design structure with Angular as well as vastly improved and responsive UI/UX. "+
+            "The technologies I most frequently worked with on this were Angular, Typescript, PHP, SQL, and Git.",
           color: "#0879bf",
         },
         {
@@ -758,7 +758,7 @@ const experience = {
           duration: "Aug 2012 - Aug 2014",
           location: "New Jersey",
           description:
-            "Spent all day in Spanish speaking areas of New Jersey finding people to serve and teach about Jesus Christ. I led a group of 5 other missionaries, providing " +
+            "I spent all day in Spanish speaking areas of New Jersey finding people to serve and teach about Jesus Christ. I led a group of 5 other missionaries, providing " +
             "weekly group and individual training, and helping them meet personal and mission goals. I networked with friends and strangers to find people who needed help or wanted " +
             "to learn about our message. I led weekly English classes for Spanish speakers in the areas I lived in. We worked for 2 months helping people in the Hurricane Sandy cleanup as " +
             "well as distributing food and supplies to those in need.",
@@ -772,7 +772,7 @@ const experience = {
           duration: "Recieved 2010",
           location: "California and Utah",
           description:
-            "Throughout my youth I participated in scouting which involved building a variety of skills with other boys in the troops I was in and participating in campouts and service projects. " +
+            "Throughout my youth, I participated in scouting which involved building a variety of skills with other boys in the troops I was in and participating in campouts and service projects. " +
             "I completed the requirements to earn the rank of Eagle Scout and led a project to raise money for supplies and volunteers to repaint the parking lot of Ridgeline Elementary School.",
           color: "#D83B01",
         },
@@ -832,10 +832,20 @@ const personalProjects = {
       name: "Luta",
       // createdAt: "2020-03-06T16:26:54Z",
       description:
-        "A startup I am building with a partner to make a platform similar to things Salesforce makes that is tailored to serve as a customer, seller, or operations portal for certain industries my partner has identified that are sorely in need of it. He owns a business in one such industry and knows what people are willing to pay for sub-par solutions to run their business with. The MVP will be rather simple, but we hope to have a suite of tools that would appeal to many businesses. " +
-        "The format will be a web app. We decided to use Bubble.io to develop the site at least initially, since it is a very fluid way to iterate on the design. I can then always rebuild it from scratch after we have done enough user testing to have a good idea of how it should flow.",
+        "A startup I started building with a partner to make a platform similar to things Salesforce makes that is tailored to serve as a customer, seller, or operations portal for certain industries my partner has identified that are sorely in need of it. He owns a business in one such industry and knows what people are willing to pay for sub-par solutions to run their business with. The MVP will be rather simple, but we hope to have a suite of tools that would appeal to many businesses. " +
+        "The format will be a web app. We decided to use Bubble.io to develop the site at least initially, since it is a very fluid way to iterate on the design. I can then always rebuild it from scratch after we have done enough user testing to have a good idea of how it should flow. We put a pin in this project in favor of first developing Save Our Solar.",
       url:
         "https://docs.google.com/document/d/1qqqYERjL_LLlLHL8jmyT462I32K8MTqXWhHZQm1556I/edit?usp=drive_link",
+    },
+    {
+      id: "018ce231-7972-72b5-99ce-83915d418101",
+      name: "Save Our Solar",
+      // createdAt: "2020-03-06T16:26:54Z",
+      description:
+        "A startup I am building with a partner to make a platform that will connect owners of solar panels who require servicing on their panels with technicians who can assist. This is a growing problem in the solar industry because many solar companies have gone out of business leaving their customers with void warranties. These customers struggle to find servicers and servicers often consist of small teams that struggle to find customers. " +
+        "The format will be a web app. We decided to use Bubble.io to develop the initial MVP site, since it is a very fluid way to iterate on the design, however I will rebuild it from scratch while the MVP is validated with users.",
+      url:
+        "https://docs.google.com/document/d/1P80B7EhICaPk7J-7ll3vEST64_h5bFlK1Cy5i4MO_P8/edit?usp=sharing",
     },
     {
       id: "018ce231-2e0e-74b2-81d1-516543753ead",
