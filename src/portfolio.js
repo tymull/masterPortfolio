@@ -462,6 +462,24 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "C S 480",
+      subtitle: "- Enrolled",
+      course_title: "Software Engineering Capstone 1",
+      // logo_path: "stanford_logo.png",
+      certificate_link: "https://catalog.byu.edu/courses/13941-000",
+      alt_name: "Software Engineering Capstone 1",
+      color_code: "rgba(14, 107, 168, 0.467)",
+    },
+    {
+      title: "CSANM 340",
+      subtitle: "- Enrolled",
+      course_title: "Introduction to Game Design",
+      // logo_path: "stanford_logo.png",
+      certificate_link: "https://catalog.byu.edu/courses/14031-000",
+      alt_name: "Introduction to Game Design",
+      color_code: "rgba(14, 107, 168, 0.467)",
+    },
+    {
       title: "C S 465",
       subtitle: "- Completed",
       course_title: "Computer Security",
