@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.731bc714.css",
-    "main.js": "/static/js/main.e29ba0df.js",
+    "main.css": "/static/css/main.56361b62.css",
+    "main.js": "/static/js/main.1020ebae.js",
     "static/media/portfolio.gif": "/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.ef8df4d30bb9e8c1aa60.svg",
     "static/media/phones.svg": "/static/media/phones.0ee9ac1ea23856a72479.svg",
@@ -11,6 +11,7 @@
     "static/media/EagleScoutBadge.svg": "/static/media/EagleScoutBadge.e7503a8986fb73ea9e0c.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.6ffaa08d6ed62e538e6c.svg",
     "static/media/GansettSolarLogo.svg": "/static/media/GansettSolarLogo.2cb5eb2f1bec3dc6330a.svg",
+    "static/media/LucianaIcon.png": "/static/media/LucianaIcon.7eb63c81e970375c7a33.png",
     "static/media/animated_ty_adjusted.png": "/static/media/animated_ty_adjusted.d12aca1470c504ceaed7.png",
     "static/media/tiktok_logo.png": "/static/media/tiktok_logo.bf41765c122d4b0f3fee.png",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -53,6 +54,7 @@
     "static/media/gcp_logo.png": "/static/media/gcp_logo.63bb0649c9716d110b14.png",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.86ce78132c18df414d83.eot",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.235a1aa30ba10c7d00d0.ttf",
+    "static/media/DragonKisser.jpg": "/static/media/DragonKisser.f709eb20fd5c118b17ac.jpg",
     "static/media/legato_logo.png": "/static/media/legato_logo.227e72c7979187840ba3.png",
     "static/media/developerActivity.svg": "/static/media/developerActivity.967f31dad3158d5be07b.svg",
     "static/media/github_logo.png": "/static/media/github_logo.15e591a7397b9ef45656.png",
@@ -80,11 +82,11 @@
     "static/media/googleAssistant.svg": "/static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.731bc714.css.map": "/static/css/main.731bc714.css.map",
-    "main.e29ba0df.js.map": "/static/js/main.e29ba0df.js.map"
+    "main.56361b62.css.map": "/static/css/main.56361b62.css.map",
+    "main.1020ebae.js.map": "/static/js/main.1020ebae.js.map"
   },
   "entrypoints": [
-    "static/css/main.731bc714.css",
-    "static/js/main.e29ba0df.js"
+    "static/css/main.56361b62.css",
+    "static/js/main.1020ebae.js"
   ]
 }
