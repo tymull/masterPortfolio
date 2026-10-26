@@ -63,11 +63,15 @@ class ExperienceCard extends Component {
                 </div>
               </div>
               {/* added padding-bottom */}
-              <div style={{ display: 'flex', justifyContent: 'flex-start', marginTop: 20, paddingBottom: 7, }}>
-                <div
-                  className="repo-description"
-                />
-                {experience["description"]}
+              <div
+                className="experience-card-description"
+                style={{ color: theme.text }}
+              >
+                {experience["description"]
+                  .split("\n\n")
+                  .map((paragraph, index) => (
+                    <p key={index}>{paragraph}</p>
+                  ))}
               </div>
 
             </div>

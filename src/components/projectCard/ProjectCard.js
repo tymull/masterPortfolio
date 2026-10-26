@@ -16,6 +16,13 @@ export default function ProjectCard({ project, theme }) {
     >
       <Fade bottom duration={2000} distance="40px">
         <div key={project.id} onClick={() => openProjectInNewTab(project.url)}>
+          {project.image_path && (
+            <img
+              className="project-card-image"
+              src={require(`../../assests/images/${project.image_path}`)}
+              alt={project.name}
+            />
+          )}
           <div className="project-name-div">
             <p className="project-name" style={{ color: theme.text }}>
               {project.name}

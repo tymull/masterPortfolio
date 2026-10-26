@@ -10,6 +10,14 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
   }
   
+  .project-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    display: block;
+  }
+
   .project-name-div {
     display: flex;
     align-items: center;

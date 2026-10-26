@@ -28,7 +28,7 @@ const greeting = {
     "who can bridge the gap that often grows between developers and business professionals. However, when asked, can still " +
     'use fun words like "RESTful API" and "synergy."',
   resumeLink:
-    "https://drive.google.com/file/d/1QU7nOEgLiglv-dt44TvR7Gbcjr--RYpr/view?usp=sharing",
+    "https://drive.google.com/file/d/18bxyun0NZZ3k7hTpGh4a0AIt_z8Duy6M/view?usp=sharing",
   portfolio_repository: "https://github.com/tymull",
   githubProfile: "https://github.com/tymull",
 };
@@ -139,9 +139,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using TypeScript and Angular or React",
-        "⚡ Creating application backend in Node, PHP, Java, and Python",
-        "⚡ Developing android applications using Java and Android Studio",
+        "⚡ Building responsive, accessible web applications using React, Next.js, Angular, and TypeScript.",
+        "⚡ Developing and maintaining backend applications and APIs using C#/.NET, Node.js, PHP, Java, and Python.",
+        "⚡ Creating android applications using Java and Android Studio",
         "⚡ Knowledge of low level programming in C and Assembly",
       ],
       softwareSkills: [
@@ -182,16 +182,23 @@ const skills = {
           skillName: "Google Apps Script",
           fontAwesomeClassname: "vscode-icons:file-type-appscript",
         },
-        {
-          skillName: "AngularJS",
-          fontAwesomeClassname: "vscode-icons:file-type-angular",
-        },
-        {
-          skillName: "ReactJS",
+                {
+          skillName: "React",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
           },
+        },
+        {
+          skillName: "Next.js",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Angular/AngularJS",
+          fontAwesomeClassname: "vscode-icons:file-type-angular",
         },
         {
           skillName: "NodeJS",
@@ -208,8 +215,16 @@ const skills = {
           },
         },
         {
+          skillName: "ASP.NET/.NET Core",
+          fontAwesomeClassname: "logos:dotnet",
+        },
+        {
           skillName: "Java",
           fontAwesomeClassname: "logos:java",
+        },
+        {
+          skillName: "C#",
+          fontAwesomeClassname: "logos:c-sharp",
         },
         {
           skillName: "Python",
@@ -238,6 +253,10 @@ const skills = {
         {
           skillName: "Assembly",
           fontAwesomeClassname: "vscode-icons:file-type-assembly",
+        },
+        {
+          skillName: "Unreal Engine",
+          fontAwesomeClassname: "simple-icons:unrealengine",
         },
         // {
         //   skillName: "Yarn",
@@ -280,19 +299,19 @@ const skills = {
         //   },
         // },
         {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        },
+        {
           skillName: "AWS",
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
           },
         },
-        // {
-        //   skillName: "Azure",
-        //   fontAwesomeClassname: "simple-icons:microsoftazure",
-        //   style: {
-        //     color: "#0089D6",
-        //   },
-        // },
         // {
         //   skillName: "Firebase",
         //   fontAwesomeClassname: "simple-icons:firebase",
@@ -322,13 +341,13 @@ const skills = {
         //     color: "#47A248",
         //   },
         // },
-        // {
-        //   skillName: "Docker",
-        //   fontAwesomeClassname: "simple-icons:docker",
-        //   style: {
-        //     color: "#1488C6",
-        //   },
-        // },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
+          style: {
+            color: "#1488C6",
+          },
+        },
         // {
         //   skillName: "Kubernetes",
         //   fontAwesomeClassname: "simple-icons:kubernetes",
@@ -367,10 +386,28 @@ const skills = {
           fontAwesomeClassname: "devicon:photoshop",
         },
         {
+          skillName: "Adobe Audition",
+          fontAwesomeClassname: "simple-icons:adobeaudition",
+          style: {
+            color: "#9494f3",
+          },
+        },
+                {
           skillName: "Inkscape",
           fontAwesomeClassname: "simple-icons:inkscape",
           style: {
             color: "#000000",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "devicon:figma",
+        },
+        {
+          skillName: "Storybook",
+          fontAwesomeClassname: "simple-icons:storybook",
+          style: {
+            color: "#FF4785",
           },
         },
       ],
@@ -395,7 +432,7 @@ const competitiveSites = {
       style: {
         color: "#c41230",
       },
-      profileLink: "https://play.picoctf.org/users/Tyabetus",
+      profileLink: "https://learn.cylabacademy.org/users/Tyabetus",
     },
     // {
     //   siteName: "HackerRank",
@@ -444,13 +481,13 @@ const degrees = {
   degrees: [
     {
       title: "Brigham Young University",
-      subtitle: "B.S. in Computer Science",
+      subtitle: "B.S. in Computer Science, Minor in Entrepreneurship",
       logo_path: "BYU.svg",
       alt_name: "BYU",
       // duration: "2016 - 2020",
       descriptions: [
         "⚡ I have studied a variety of software engineering subjects including Algorithms, Architecture, Low Level Programming, Design, Cloud Platforms, and more",
-        "⚡ Projected Graduation of Spring 2025",
+        "⚡ Graduated April 2026 with a B.S. in Computer Science and a Minor in Entrepreneurship.",
         "⚡ Member of Phi-Eta-Sigma Honor Society and the Dean's List Freshman Year.",
         "⚡ Participated in the BYU ACM Coding Competition and Google Games.",
       ],
@@ -462,8 +499,53 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "C S 481",
+      subtitle: "- Completed",
+      course_title: "Software Engineering Capstone 2",
+      certificate_link:
+        "https://catalog.byu.edu/courses/13942-000/course-information-aoYks",
+      alt_name: "Software Engineering Capstone 2",
+      color_code: "rgba(14, 107, 168, 0.467)",
+    },
+    {
+      title: "C S 405",
+      subtitle: "- Completed",
+      course_title: "Software Business",
+      certificate_link:
+        "https://catalog.byu.edu/courses/11295-000/course-information-aoYks",
+      alt_name: "Software Business",
+      color_code: "rgba(14, 107, 168, 0.467)",
+    },
+    {
+      title: "CSANIM 460",
+      subtitle: "- Completed",
+      course_title: "Video Game Production 2",
+      certificate_link:
+        "https://catalog.byu.edu/courses/13772-000/course-information-aoYks",
+      alt_name: "Video Game Production 2",
+      color_code: "rgba(14, 107, 168, 0.467)",
+    },
+    {
+      title: "CSANIM 459",
+      subtitle: "- Completed",
+      course_title: "Video Game Production 1",
+      certificate_link:
+        "https://catalog.byu.edu/courses/11937-004/course-information-aoYks",
+      alt_name: "Video Game Production 1",
+      color_code: "rgba(14, 107, 168, 0.467)",
+    },
+    {
+      title: "ENT 445R",
+      subtitle: "- Completed",
+      course_title: "Software Product Manager Lecture Series",
+      certificate_link:
+        "https://catalog.byu.edu/courses/LdGOg2vhBloeYj3PXeJi/course-information-aoYks",
+      alt_name: "Software Product Manager Lecture Series",
+      color_code: "rgba(14, 107, 168, 0.467)",
+    },
+    {
       title: "C S 480",
-      subtitle: "- Enrolled",
+      subtitle: "- Completed",
       course_title: "Software Engineering Capstone 1",
       // logo_path: "stanford_logo.png",
       certificate_link: "https://catalog.byu.edu/courses/13941-000",
@@ -472,7 +554,7 @@ const certifications = {
     },
     {
       title: "CSANM 340",
-      subtitle: "- Enrolled",
+      subtitle: "- Completed",
       course_title: "Introduction to Game Design",
       // logo_path: "stanford_logo.png",
       certificate_link: "https://catalog.byu.edu/courses/14031-000",
@@ -654,7 +736,7 @@ const certifications = {
     },
     {
       title: "M COM 320",
-      subtitle: "- Enrolled",
+      subtitle: "- Completed",
       course_title: "Management Communication",
       // logo_path: "deeplearning_ai_logo.png",
       certificate_link: "https://catalog.byu.edu/courses/00747-027",
@@ -678,6 +760,34 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Software Engineer",
+          company: "Tassel",
+          company_url: "https://tassel.com/",
+          logo_path: "TasselIcon.jpg",
+          duration: "Feb 2025 - Present",
+          location: "Remote",
+          description:
+            "As a full-stack software engineer at Tassel, I develop and maintain web applications used by school administrators and graduates. Much of my work involves modernizing our platform, transitioning legacy AngularJS applications to React and Next.js while migrating backend services from .NET Framework to .NET 8. This requires supporting existing production systems alongside their modern replacements.\n\n" +
+            "I've contributed to new features and products, including graduate management tools, authentication workflows, and administrative functionality. My work spans React, Next.js, TypeScript, C#, ASP.NET, and Microsoft SQL Server in an Azure environment.\n\n" +
+            "Beyond feature development, I've taken initiative to improve security, accessibility, and maintainability. I independently identified and remediated a cross-site scripting vulnerability, helped advance our GradWeb platform toward WCAG 2.2 AA conformance, and expanded an external accessibility audit finding from one affected dialog to fourteen through a broader codebase investigation. I also developed the remediation plan for those issues.\n\n" +
+            "I've additionally contributed to backend architecture, reusable UI components, performance improvements, and debugging complex production issues. I enjoy working across the stack, understanding how systems fit together, and finding opportunities to improve the software beyond the immediate requirements of a ticket.",
+          color: "#1e1e1e",
+        },
+        {
+          title: "Software Engineer Intern",
+          company: "Tassel",
+          company_url: "https://tassel.com/",
+          logo_path: "TasselIcon.jpg",
+          duration: "Nov 2024 - Feb 2025",
+          location: "Remote",
+          description:
+            "I joined Tassel as a full-stack software engineering intern and quickly began contributing to production applications and the company's ongoing platform modernization.\n\n" +
+            "One of my most significant early contributions was optimizing database queries for the Name Reader functionality. By replacing inefficient N+1 queries with batched queries and eager loading, I reduced load-test response times from approximately five seconds to under one second, improving performance and scalability for schools with large graduate datasets.\n\n" +
+            "I also developed eight reusable React components for our shared UI library, following Figma designs and established component patterns. These components supported the development of our newer applications and helped establish a consistent user experience.\n\n" +
+            "After my internship, I transitioned into a full-time Software Engineer position, initially focusing on frontend development before returning to full-stack work as the engineering teams were reorganized.",
+          color: "#1e1e1e",
+        },
+        {
           title: "Software Developer",
           company: "BYU Print and Mail",
           company_url: "https://print-mail.byu.edu/",
@@ -687,9 +797,9 @@ const experience = {
           description:
             "I developed and maintained the full stack of various websites and internal applications for BYU Print and Mail " +
             "as part of a team. " +
-            "I frequently fixed bugs and added features to the web based systems using PHP backend, Angular frontend, and SQL databases. " +
+            "I frequently fixed bugs and added features to the web based systems using PHP backend, Angular frontend, and SQL databases.\n\n" +
             "Our databases were stored on local servers, but we had started migrating some to cloud, and I successfully assisted with a server migration by updating dependent file paths in older sites that had poor design " +
-            "structure and identified multiple important files that had been missed in the initial audit. " +
+            "structure and identified multiple important files that had been missed in the initial audit.\n\n" +
             "I worked with two other developers and rebuilt an outdated and poorly designed product site from the ground up and " +
             "implemented excellent software design structure with Angular as well as vastly improved and responsive UI/UX. "+
             "The technologies I most frequently worked with on this were Angular, Typescript, PHP, SQL, and Git.",
@@ -818,6 +928,18 @@ const personalHeader = {
 const personalProjects = {
   data: [
     {
+      id: "sonia-storm-babyspawn",
+      name: "Sonia Storm",
+      languages: [
+        { name: "HTML", iconifyClass: "logos:html-5" },
+        { name: "CSS", iconifyClass: "logos:css-3" },
+        { name: "JavaScript", iconifyClass: "logos-javascript" },
+      ],
+      description:
+        "A silly browser game I vibe-coded in a few hours for my wife's birthday.",
+      url: "/sonia-storm/",
+    },
+    {
       id: "018ce232-0517-7f34-8d7c-c528ccee60eb",
       name: "Hatdraw Machine",
       // createdAt: "2020-03-06T16:26:54Z",
@@ -884,6 +1006,24 @@ const schoolHeader = {
 
 const schoolProjects = {
   data: [
+    {
+      id: "dragon-kisser-4681880",
+      name: "Dragon Kisser",
+      image_path: "DragonKisser.jpg",
+      languages: [
+        { name: "Unreal Engine", iconifyClass: "simple-icons:unrealengine" },
+        { name: "C++", iconifyClass: "devicon:cplusplus" },
+        { name: "Photoshop", iconifyClass: "devicon:photoshop" },
+        { name: "Audition", iconifyClass: "simple-icons:adobeaudition" },
+      ],
+      description:
+        "A cheeky third-person soulslike where you play Domingo, a village rooster whose plan to save his town from a marauding dragon is to romance her. " +
+        "Dodge her attacks, win over the crowd, and clear a gauntlet of charm minigames to earn the most legendary victory kiss in history. " +
+        "Dragon Kisser is a BYU Center for Animation capstone I helped build over roughly a year with a student team: I worked primarily in Unreal Engine and C++, " +
+        "with Photoshop for art assets, Audition/Audacity for audio, and Perforce for version control. " +
+        "It launched on Steam as the first BYU Animation capstone project to earn an \"Overwhelmingly Positive\" rating.",
+      url: "https://store.steampowered.com/app/4681880/Dragon_Kisser/",
+    },
     {
       id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
       name: "Family Map App",

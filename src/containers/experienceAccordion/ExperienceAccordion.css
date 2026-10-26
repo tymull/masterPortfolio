@@ -6,8 +6,18 @@
   font-family: "Google Sans Regular";
 }
 
+.experience-accord .experience-list-item {
+  max-width: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 768px) {
   .experience-accord {
     margin: 20px;
+  }
+  
+  .experience-accord .experience-list-item {
+    max-width: 100%;
   }
 }
